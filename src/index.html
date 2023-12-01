@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FromPolandWithDev.com</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&family=Syne+Mono&display=swap" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+  <div class="pdp-container">
+    <div class="row">
+      <div class="col">
+        <div class="gallery-container">
+          <div class="row">
+            <div class="col thumbnails-container">
+              <div class="swiper swiper-thumbnails">
+                  <div class="swiper-wrapper">
+                  </div>
+              </div>
+            </div>
+            <div class="col main-slider-container">
+              <div class="swiper swiper-main">
+                <div class="swiper-wrapper">
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="product-info">
+          <h1>Very nice red dress</h1>
+          <div class="product-info-price">$999</div>
+          <div class="product-info-description">The Woodlands Dress is a favorite, and perennial best-seller for its seasonless, feminine tiered design and self belt. You can dress her up, down and all around with sneakers, boots...</div>
+          <div class="current-size"></div>
+          <button class="size-selector btn-primary" data-drawer-content="size-selector">
+            Choose size
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="drawer">
+      <div class="drawer-close">
+        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8.94678 7.5L14.7007 1.74612C15.0998 1.34701 15.0998 0.698448 14.7007 0.299335C14.3015 -0.0997783 13.653 -0.0997783 13.2539 0.299335L7.5 6.05321L1.74612 0.315965C1.34701 -0.0831485 0.698448 -0.0831485 0.299335 0.315965C-0.0997783 0.715078 -0.0997783 1.36364 0.299335 1.76275L6.05322 7.5L0.315964 13.2539C-0.0831486 13.653 -0.0831486 14.3016 0.315964 14.7007C0.715078 15.0998 1.36364 15.0998 1.76275 14.7007L7.51663 8.94678L13.2705 14.7007C13.6696 15.0998 14.3182 15.0998 14.7173 14.7007C15.1164 14.3016 15.1164 13.653 14.7173 13.2539L8.94678 7.5Z" fill="#002855"></path>
+        </svg>
+      </div>
+      <div class="drawer-content"></div>
+    </div>
+  </div>
+  <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
